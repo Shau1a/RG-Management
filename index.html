@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- Font Awesome (CDN) -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
+integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+
+	<!-- Roboto font -->
+	<link rel="stylesheet" href="dist/css/font.min.css">
+
+	<!-- Main style file -->
+	<link rel="stylesheet" href="dist/css/reset.min.css">
+	<link rel="stylesheet" href="dist/css/style.min.css">
+
+	<title>RD</title>
+</head>
+<body>
+	<header class="header">
+		<div class="header_top">
+			<div class="header_main-logo"></div>			
+			<a href="#" class="header_english-translation"><span>In English</span></a>
+		</div>
+		
+		<h1 class="header_title">
+			Вы можете позвонить<br><span class="regular-font">или <a href="administration@rdms.ru" class="header_email-link">написать</a> нам</span>
+		</h1>
+		<p class="header_phone-number">+7<i class="fas fa-circle"></i>495<i class="fas fa-circle"></i>772<i class="fas fa-circle"></i>77<i class="fas fa-circle"></i>01</p>
+	</header>
+
+	<div class="content_wrapper">
+		<div class="content_article">
+			<div class="content_city-name">
+				<h2>Москва</h2>
+				<span><i class="fas fa-angle-down"></i></span>
+			</div>
+			<div class="content_article-info">
+				<p>RD MANAGEMENT</p>
+				<p>РОМАНОВ ПЕРЕУЛОК, ДОМ 4, СТР. 2</p>
+				<a href="https://goo.gl/maps/jMNhyBTm2ZBbDSL18" target="blank" class="content_map-link"><i class="fas fa-map-marker-alt"></i>    ПОКАЗАТЬ НА КАРТЕ</a>
+				<p>Т: +7 495 772 77 01</p>
+				<p>Т: +7 495 772 77 02</p>
+				<a href="mailto:administration@rdms.ru"><span class='content_email-icon'></span>   administration@rdms.ru</a>
+			</div>
+		</div>
+		<div class="content_form">
+			<h2>ОБРАТНАЯ СВЯЗЬ</h2>
+			<form action="mailto:katya.lugackova@gmail.com" enctype="text/plain" method="post" name="feedback">
+				<!-- можно сделать через select, но сложно поменять дизайн -->
+				<fieldset class="content_form-topic-set">
+				<input name="topic" type="text" placeholder="Tема сообщения" readonly="true">
+					<span class="topic_arrow"><i class="fas fa-angle-down"></i></span>
+					<ul class="content_form-list hide-list">
+						<li>Услуги</li>
+						<li>Консультация</li>
+						<li>Карьера</li>
+						<li>Другое</li>
+					</ul>
+				</fieldset>
+				<input name="name" type="text" placeholder="Ваше имя">
+				<input name="email" type="email" placeholder="Ваш E-mail" data-regx="^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$">
+				<textarea name="text" placeholder="Ваше сообщение"></textarea>
+				<input type="submit" value="Отправить">
+			</form>
+		</div>
+	</div>
+	<footer class="footer">
+		<button class="footer_button">полная версия сайта</button>
+	</footer>
+	
+	<script src="dist/scripts/script.min.js" type="text/javascript"></script>
+</body>
+</html>
