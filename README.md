@@ -1,5 +1,5 @@
 # RG-Management
-web-page with form
+web-page with form: https://shau1a.github.io/RG-Management/index.html
 
 
 макет https://www.dropbox.com/s/pnc8knqei3fpwga/mob.psd?dl=0
